@@ -11,6 +11,8 @@ Once the notification is processed , the system should generate different type o
 
 Should expose REST APIs to see the details
 
+Should be able to easily extendable and plugable new notification message types in future
+
 # Non functional requirements
 
 Scalability considerations
@@ -20,9 +22,13 @@ Unit testing
 # Technology of choice
 
 Spring Boot
+
 Hibernate
+
 RabbitMQ or some standard message oriented middleware
+
 Junit
+
 Any standard caching framework
 
 
